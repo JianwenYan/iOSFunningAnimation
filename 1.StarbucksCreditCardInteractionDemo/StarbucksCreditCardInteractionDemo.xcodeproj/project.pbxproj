@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1B00CE1CF998A4004FEE48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B00CD1CF998A4004FEE48 /* main.m */; };
+		7E1B00D11CF998A4004FEE48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B00D01CF998A4004FEE48 /* AppDelegate.m */; };
+		7E1B00D41CF998A4004FEE48 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B00D31CF998A4004FEE48 /* MainViewController.m */; };
+		7E1B00D71CF998A4004FEE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1B00D51CF998A4004FEE48 /* Main.storyboard */; };
+		7E1B00D91CF998A4004FEE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1B00D81CF998A4004FEE48 /* Assets.xcassets */; };
+		7E1B00DC1CF998A4004FEE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1B00DA1CF998A4004FEE48 /* LaunchScreen.storyboard */; };
+		7E1B01131CF9A201004FEE48 /* TopBarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B01001CF9A201004FEE48 /* TopBarIndicatorView.m */; };
+		7E1B01141CF9A201004FEE48 /* TopBarPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B01021CF9A201004FEE48 /* TopBarPageController.m */; };
+		7E1B01151CF9A201004FEE48 /* TopBarView+ExpandItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B01041CF9A201004FEE48 /* TopBarView+ExpandItem.m */; };
+		7E1B01161CF9A201004FEE48 /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B01061CF9A201004FEE48 /* TopBarView.m */; };
+		7E1B01171CF9A201004FEE48 /* UIColor+Fade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B01081CF9A201004FEE48 /* UIColor+Fade.m */; };
+		7E1B011A1CF9D230004FEE48 /* Pay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1B01181CF9D22F004FEE48 /* Pay.storyboard */; };
+		7E1B011D1CF9D25A004FEE48 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B011C1CF9D25A004FEE48 /* PayViewController.m */; };
+		7E1B01211CFB08B3004FEE48 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B01201CFB08B3004FEE48 /* iCarousel.m */; };
+		7E1B01251CFC861E004FEE48 /* PayCardInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B01241CFC861E004FEE48 /* PayCardInfoViewController.m */; };
+		7E9CB97F1CFEA53500B5F4C3 /* UIView+PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CB97E1CFEA53500B5F4C3 /* UIView+PopAnimation.m */; };
+		7E9CB9851D001C6B00B5F4C3 /* YanBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CB9821D001C6B00B5F4C3 /* YanBannerView.m */; };
+		7E9CB9861D001C6B00B5F4C3 /* YanBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CB9841D001C6B00B5F4C3 /* YanBannerViewCell.m */; };
+		7E9CB98A1D01AFE200B5F4C3 /* SpecialKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CB9891D01AFE200B5F4C3 /* SpecialKeyBoardView.m */; };
+		7EF8C08F1D056AD400D6B608 /* PaySuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8C08E1D056AD400D6B608 /* PaySuccessViewController.m */; };
+		7EF8C11A1D0668AE00D6B608 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF8C1191D0668AE00D6B608 /* CoreGraphics.framework */; };
+		D2672F411B585D65DBF67FC5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85693C4A007911B254E14E08 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E1B00C91CF998A4004FEE48 /* StarbucksCreditCardInteractionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksCreditCardInteractionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1B00CD1CF998A4004FEE48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E1B00CF1CF998A4004FEE48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E1B00D01CF998A4004FEE48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E1B00D21CF998A4004FEE48 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7E1B00D31CF998A4004FEE48 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7E1B00D61CF998A4004FEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1B00D81CF998A4004FEE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1B00DB1CF998A4004FEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1B00DD1CF998A4004FEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1B00FF1CF9A201004FEE48 /* TopBarIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarIndicatorView.h; sourceTree = "<group>"; };
+		7E1B01001CF9A201004FEE48 /* TopBarIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarIndicatorView.m; sourceTree = "<group>"; };
+		7E1B01011CF9A201004FEE48 /* TopBarPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarPageController.h; sourceTree = "<group>"; };
+		7E1B01021CF9A201004FEE48 /* TopBarPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarPageController.m; sourceTree = "<group>"; };
+		7E1B01031CF9A201004FEE48 /* TopBarView+ExpandItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TopBarView+ExpandItem.h"; sourceTree = "<group>"; };
+		7E1B01041CF9A201004FEE48 /* TopBarView+ExpandItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TopBarView+ExpandItem.m"; sourceTree = "<group>"; };
+		7E1B01051CF9A201004FEE48 /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
+		7E1B01061CF9A201004FEE48 /* TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarView.m; sourceTree = "<group>"; };
+		7E1B01071CF9A201004FEE48 /* UIColor+Fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Fade.h"; sourceTree = "<group>"; };
+		7E1B01081CF9A201004FEE48 /* UIColor+Fade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Fade.m"; sourceTree = "<group>"; };
+		7E1B01191CF9D230004FEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Pay.storyboard; sourceTree = "<group>"; };
+		7E1B011B1CF9D25A004FEE48 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		7E1B011C1CF9D25A004FEE48 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		7E1B011F1CFB08B3004FEE48 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		7E1B01201CFB08B3004FEE48 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		7E1B01231CFC861E004FEE48 /* PayCardInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayCardInfoViewController.h; sourceTree = "<group>"; };
+		7E1B01241CFC861E004FEE48 /* PayCardInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayCardInfoViewController.m; sourceTree = "<group>"; };
+		7E9CB97D1CFEA53500B5F4C3 /* UIView+PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PopAnimation.h"; sourceTree = "<group>"; };
+		7E9CB97E1CFEA53500B5F4C3 /* UIView+PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PopAnimation.m"; sourceTree = "<group>"; };
+		7E9CB9811D001C6B00B5F4C3 /* YanBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YanBannerView.h; path = kit/YanBannerView/YanBannerView.h; sourceTree = "<group>"; };
+		7E9CB9821D001C6B00B5F4C3 /* YanBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YanBannerView.m; path = kit/YanBannerView/YanBannerView.m; sourceTree = "<group>"; };
+		7E9CB9831D001C6B00B5F4C3 /* YanBannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YanBannerViewCell.h; path = kit/YanBannerView/YanBannerViewCell.h; sourceTree = "<group>"; };
+		7E9CB9841D001C6B00B5F4C3 /* YanBannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YanBannerViewCell.m; path = kit/YanBannerView/YanBannerViewCell.m; sourceTree = "<group>"; };
+		7E9CB9881D01AFE200B5F4C3 /* SpecialKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialKeyBoardView.h; path = kit/SpecialKeyBoardView.h; sourceTree = "<group>"; };
+		7E9CB9891D01AFE200B5F4C3 /* SpecialKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialKeyBoardView.m; path = kit/SpecialKeyBoardView.m; sourceTree = "<group>"; };
+		7EF8C08D1D056AD400D6B608 /* PaySuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySuccessViewController.h; sourceTree = "<group>"; };
+		7EF8C08E1D056AD400D6B608 /* PaySuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySuccessViewController.m; sourceTree = "<group>"; };
+		7EF8C1191D0668AE00D6B608 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85693C4A007911B254E14E08 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3F595628878A50CC7DBA9E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7F2462AD94BF54466DEAD2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1B00C61CF998A4004FEE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF8C11A1D0668AE00D6B608 /* CoreGraphics.framework in Frameworks */,
+				D2672F411B585D65DBF67FC5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52470CB3D79A22C439AC58AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F595628878A50CC7DBA9E /* Pods.debug.xcconfig */,
+				DD7F2462AD94BF54466DEAD2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E1B00C01CF998A4004FEE48 = {
+			isa = PBXGroup;
+			children = (
+				7E1B00CB1CF998A4004FEE48 /* StarbucksCreditCardInteractionDemo */,
+				7E1B00CA1CF998A4004FEE48 /* Products */,
+				52470CB3D79A22C439AC58AC /* Pods */,
+				B8E501DBB3BE44B925656D03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1B00CA1CF998A4004FEE48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1B00C91CF998A4004FEE48 /* StarbucksCreditCardInteractionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1B00CB1CF998A4004FEE48 /* StarbucksCreditCardInteractionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7E1B00CF1CF998A4004FEE48 /* AppDelegate.h */,
+				7E1B00D01CF998A4004FEE48 /* AppDelegate.m */,
+				7E1B00E31CF9A1EB004FEE48 /* Kit */,
+				7E1B01221CFBCF7F004FEE48 /* category */,
+				7E1B00D21CF998A4004FEE48 /* MainViewController.h */,
+				7E1B00D31CF998A4004FEE48 /* MainViewController.m */,
+				7E1B011B1CF9D25A004FEE48 /* PayViewController.h */,
+				7E1B011C1CF9D25A004FEE48 /* PayViewController.m */,
+				7E1B01231CFC861E004FEE48 /* PayCardInfoViewController.h */,
+				7E1B01241CFC861E004FEE48 /* PayCardInfoViewController.m */,
+				7EF8C08D1D056AD400D6B608 /* PaySuccessViewController.h */,
+				7EF8C08E1D056AD400D6B608 /* PaySuccessViewController.m */,
+				7E1B00D51CF998A4004FEE48 /* Main.storyboard */,
+				7E1B01181CF9D22F004FEE48 /* Pay.storyboard */,
+				7E1B00D81CF998A4004FEE48 /* Assets.xcassets */,
+				7E1B00DA1CF998A4004FEE48 /* LaunchScreen.storyboard */,
+				7E1B00DD1CF998A4004FEE48 /* Info.plist */,
+				7E1B00CC1CF998A4004FEE48 /* Supporting Files */,
+			);
+			path = StarbucksCreditCardInteractionDemo;
+			sourceTree = "<group>";
+		};
+		7E1B00CC1CF998A4004FEE48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1B00CD1CF998A4004FEE48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E1B00E31CF9A1EB004FEE48 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				7E9CB9801D001BD400B5F4C3 /* YanBannerView */,
+				7E1B00FE1CF9A201004FEE48 /* TopBarPageVController */,
+				7E1B011E1CFB08B3004FEE48 /* iCarousel */,
+				7EF8C11B1D06722900D6B608 /* IQKeyboardManager */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+		7E1B00FE1CF9A201004FEE48 /* TopBarPageVController */ = {
+			isa = PBXGroup;
+			children = (
+				7E1B00FF1CF9A201004FEE48 /* TopBarIndicatorView.h */,
+				7E1B01001CF9A201004FEE48 /* TopBarIndicatorView.m */,
+				7E1B01011CF9A201004FEE48 /* TopBarPageController.h */,
+				7E1B01021CF9A201004FEE48 /* TopBarPageController.m */,
+				7E1B01031CF9A201004FEE48 /* TopBarView+ExpandItem.h */,
+				7E1B01041CF9A201004FEE48 /* TopBarView+ExpandItem.m */,
+				7E1B01051CF9A201004FEE48 /* TopBarView.h */,
+				7E1B01061CF9A201004FEE48 /* TopBarView.m */,
+				7E1B01071CF9A201004FEE48 /* UIColor+Fade.h */,
+				7E1B01081CF9A201004FEE48 /* UIColor+Fade.m */,
+			);
+			name = TopBarPageVController;
+			path = kit/TopBarPageVController;
+			sourceTree = "<group>";
+		};
+		7E1B011E1CFB08B3004FEE48 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				7E1B011F1CFB08B3004FEE48 /* iCarousel.h */,
+				7E1B01201CFB08B3004FEE48 /* iCarousel.m */,
+			);
+			name = iCarousel;
+			path = kit/iCarousel;
+			sourceTree = "<group>";
+		};
+		7E1B01221CFBCF7F004FEE48 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				7E9CB97D1CFEA53500B5F4C3 /* UIView+PopAnimation.h */,
+				7E9CB97E1CFEA53500B5F4C3 /* UIView+PopAnimation.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		7E9CB9801D001BD400B5F4C3 /* YanBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				7E9CB9811D001C6B00B5F4C3 /* YanBannerView.h */,
+				7E9CB9821D001C6B00B5F4C3 /* YanBannerView.m */,
+				7E9CB9831D001C6B00B5F4C3 /* YanBannerViewCell.h */,
+				7E9CB9841D001C6B00B5F4C3 /* YanBannerViewCell.m */,
+			);
+			name = YanBannerView;
+			sourceTree = "<group>";
+		};
+		7EF8C11B1D06722900D6B608 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				7E9CB9881D01AFE200B5F4C3 /* SpecialKeyBoardView.h */,
+				7E9CB9891D01AFE200B5F4C3 /* SpecialKeyBoardView.m */,
+			);
+			name = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		B8E501DBB3BE44B925656D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF8C1191D0668AE00D6B608 /* CoreGraphics.framework */,
+				85693C4A007911B254E14E08 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1B00C81CF998A4004FEE48 /* StarbucksCreditCardInteractionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1B00E01CF998A4004FEE48 /* Build configuration list for PBXNativeTarget "StarbucksCreditCardInteractionDemo" */;
+			buildPhases = (
+				FA913B25DE17A780265E4180 /* Check Pods Manifest.lock */,
+				7E1B00C51CF998A4004FEE48 /* Sources */,
+				7E1B00C61CF998A4004FEE48 /* Frameworks */,
+				7E1B00C71CF998A4004FEE48 /* Resources */,
+				14EB7C866A8C25D22D0FED37 /* Embed Pods Frameworks */,
+				6F457D8B48C43DCAC882B06D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarbucksCreditCardInteractionDemo;
+			productName = StarbucksCreditCardInteractionDemo;
+			productReference = 7E1B00C91CF998A4004FEE48 /* StarbucksCreditCardInteractionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1B00C11CF998A4004FEE48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "颜建文";
+				TargetAttributes = {
+					7E1B00C81CF998A4004FEE48 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7E1B00C41CF998A4004FEE48 /* Build configuration list for PBXProject "StarbucksCreditCardInteractionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1B00C01CF998A4004FEE48;
+			productRefGroup = 7E1B00CA1CF998A4004FEE48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1B00C81CF998A4004FEE48 /* StarbucksCreditCardInteractionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1B00C71CF998A4004FEE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1B00DC1CF998A4004FEE48 /* LaunchScreen.storyboard in Resources */,
+				7E1B00D91CF998A4004FEE48 /* Assets.xcassets in Resources */,
+				7E1B00D71CF998A4004FEE48 /* Main.storyboard in Resources */,
+				7E1B011A1CF9D230004FEE48 /* Pay.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EB7C866A8C25D22D0FED37 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F457D8B48C43DCAC882B06D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA913B25DE17A780265E4180 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1B00C51CF998A4004FEE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1B01131CF9A201004FEE48 /* TopBarIndicatorView.m in Sources */,
+				7E1B01211CFB08B3004FEE48 /* iCarousel.m in Sources */,
+				7E1B011D1CF9D25A004FEE48 /* PayViewController.m in Sources */,
+				7E9CB9861D001C6B00B5F4C3 /* YanBannerViewCell.m in Sources */,
+				7E1B01171CF9A201004FEE48 /* UIColor+Fade.m in Sources */,
+				7E1B01141CF9A201004FEE48 /* TopBarPageController.m in Sources */,
+				7E1B00D41CF998A4004FEE48 /* MainViewController.m in Sources */,
+				7EF8C08F1D056AD400D6B608 /* PaySuccessViewController.m in Sources */,
+				7E1B00D11CF998A4004FEE48 /* AppDelegate.m in Sources */,
+				7E1B01161CF9A201004FEE48 /* TopBarView.m in Sources */,
+				7E9CB9851D001C6B00B5F4C3 /* YanBannerView.m in Sources */,
+				7E1B01251CFC861E004FEE48 /* PayCardInfoViewController.m in Sources */,
+				7E9CB98A1D01AFE200B5F4C3 /* SpecialKeyBoardView.m in Sources */,
+				7E1B00CE1CF998A4004FEE48 /* main.m in Sources */,
+				7E1B01151CF9A201004FEE48 /* TopBarView+ExpandItem.m in Sources */,
+				7E9CB97F1CFEA53500B5F4C3 /* UIView+PopAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E1B00D51CF998A4004FEE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1B00D61CF998A4004FEE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E1B00DA1CF998A4004FEE48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1B00DB1CF998A4004FEE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7E1B01181CF9D22F004FEE48 /* Pay.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1B01191CF9D230004FEE48 /* Base */,
+			);
+			name = Pay.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1B00DE1CF998A4004FEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E1B00DF1CF998A4004FEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1B00E11CF998A4004FEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3F595628878A50CC7DBA9E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarbucksCreditCardInteractionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.yanjw.StarbucksPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E1B00E21CF998A4004FEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7F2462AD94BF54466DEAD2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarbucksCreditCardInteractionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.yanjw.StarbucksPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1B00C41CF998A4004FEE48 /* Build configuration list for PBXProject "StarbucksCreditCardInteractionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1B00DE1CF998A4004FEE48 /* Debug */,
+				7E1B00DF1CF998A4004FEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1B00E01CF998A4004FEE48 /* Build configuration list for PBXNativeTarget "StarbucksCreditCardInteractionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1B00E11CF998A4004FEE48 /* Debug */,
+				7E1B00E21CF998A4004FEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1B00C11CF998A4004FEE48 /* Project object */;
+}
