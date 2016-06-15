@@ -11,3 +11,8 @@ some funning animation demo for iOS (from dribbble, materialup  or...)
 ### sketch resource from:
    https://goo.gl/vNhXjx 
 
+### Fix:
+In this project, i set the storyboard with w(Compact) x h(Regular) for iPhone. After pod install, storyboard will be set to w(Compact) x h(Compact) and can not see the layout. So we need to reset it:
+
+![iOSFunningAnimation](https://github.com/JianwenYan/iOSFunningAnimation/raw/master/readme-assets/StarbucksCreditCardInteractioPayStoryboardFix.gif)
+
