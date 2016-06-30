@@ -23,11 +23,9 @@ In this project, i set the storyboard with w(Compact) x h(Regular) for iPhone. A
 
 
 ### picture resource from:
-
     http://www.fubiz.net/en/2016/05/27/magnificent-illustrations-of-tokyo-by-mateusz-urbanowicz/
 
 ### CrossfadingImageView.swift base on artsy
-
-    [ARCrossfadingImageView](https://github.com/artsy/eigen/blob/master/Artsy/View_Controllers/Login_and_Onboarding/Onboarding_stages/2_-_Calls_to_Action/Views/ARCrossfadingImageView.m)
+    https://github.com/artsy/eigen/blob/master/Artsy/View_Controllers/Login_and_Onboarding/Onboarding_stages/2_-_Calls_to_Action/Views/ARCrossfadingImageView.m
     
     
